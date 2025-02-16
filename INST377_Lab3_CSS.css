@@ -1,6 +1,6 @@
 body {
-    background-color: skyblue
-
+    background-color: skyblue;
+    font-family: sans-serif;
 }
 
 #bar {
@@ -37,7 +37,6 @@ body {
 
 .main-container {
     margin: 30px;
-    font-family: sans-serif;
 }
 
 .main-content {
@@ -49,7 +48,7 @@ body {
     padding: 20px;
 }
 
-input:focus {
+#name:focus {
     width: 40%;
 }
 
@@ -64,6 +63,6 @@ input:focus {
 }
 
 #rules:hover {
-    background-color: plum;
+    background-color: magenta;
 }
 
