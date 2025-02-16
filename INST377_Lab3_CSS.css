@@ -1,0 +1,69 @@
+body {
+    background-color: skyblue
+
+}
+
+#bar {
+    background-color: cornflowerblue;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    margin: 30px;
+    clear: both;
+}
+
+#main-nav {
+    background-color: white;
+    margin: 30px;
+}
+
+#main-nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#main-nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+
+#main-nav li:hover {
+    background-color: lightsteelblue;
+}
+
+.main-container {
+    margin: 30px;
+    font-family: sans-serif;
+}
+
+.main-content {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    float: left;
+    width: 70%;
+    padding: 20px;
+}
+
+input:focus {
+    width: 40%;
+}
+
+#rules {
+    background-color: violet;
+    border: 2px solid black;
+    border-radius: 15px;
+    float: right;
+    width: 20%;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+#rules:hover {
+    background-color: plum;
+}
+
